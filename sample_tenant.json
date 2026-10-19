@@ -1,0 +1,29 @@
+{
+  "_note": "Fictional sample tenant for demonstration. Shapes match Microsoft Graph responses for /users and /reports/authenticationMethods/userRegistrationDetails.",
+  "generatedAt": "2026-10-19T08:00:00Z",
+  "users": [
+    {"id": "u01", "displayName": "Amina Otieno", "userPrincipalName": "amina.otieno@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2022-02-14T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2026-10-18T07:41:12Z", "lastNonInteractiveSignInDateTime": "2026-10-19T06:02:44.1234567Z"}},
+    {"id": "u02", "displayName": "IT Admin (break-glass)", "userPrincipalName": "it.admin@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2021-06-01T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2026-10-10T15:20:00Z"}},
+    {"id": "u03", "displayName": "Brian Kamau", "userPrincipalName": "brian.kamau@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2023-01-09T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2026-10-17T12:00:00Z"}},
+    {"id": "u04", "displayName": "Grace Wanjiru", "userPrincipalName": "grace.wanjiru@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2022-08-22T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2026-04-02T10:15:00Z"}},
+    {"id": "u05", "displayName": "Peter Mwangi", "userPrincipalName": "peter.mwangi@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2024-11-04T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2026-10-16T08:30:00Z"}},
+    {"id": "u06", "displayName": "Exchange Admin", "userPrincipalName": "exchange.admin@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2023-03-15T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2026-10-12T09:45:00Z"}},
+    {"id": "u07", "displayName": "Former Contractor", "userPrincipalName": "contractor_partner.com#EXT#@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Guest", "createdDateTime": "2024-05-20T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2025-12-01T11:00:00Z"}},
+    {"id": "u08", "displayName": "Auditor Guest", "userPrincipalName": "auditor_firm.co.ke#EXT#@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Guest", "createdDateTime": "2025-09-01T09:00:00Z", "signInActivity": null},
+    {"id": "u09", "displayName": "Training Room", "userPrincipalName": "training.room@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2024-02-01T09:00:00Z", "signInActivity": null},
+    {"id": "u10", "displayName": "New Starter", "userPrincipalName": "new.starter@contoso.onmicrosoft.com", "accountEnabled": true, "userType": "Member", "createdDateTime": "2026-10-13T09:00:00Z", "signInActivity": null},
+    {"id": "u11", "displayName": "Leaver (disabled)", "userPrincipalName": "leaver@contoso.onmicrosoft.com", "accountEnabled": false, "userType": "Member", "createdDateTime": "2020-01-10T09:00:00Z", "signInActivity": {"lastSignInDateTime": "2025-01-31T17:00:00Z"}}
+  ],
+  "registrationDetails": [
+    {"id": "u01", "userPrincipalName": "amina.otieno@contoso.onmicrosoft.com", "isAdmin": true,  "isMfaRegistered": true,  "userType": "member", "methodsRegistered": ["microsoftAuthenticatorPush", "fido2"]},
+    {"id": "u02", "userPrincipalName": "it.admin@contoso.onmicrosoft.com",     "isAdmin": true,  "isMfaRegistered": false, "userType": "member", "methodsRegistered": []},
+    {"id": "u03", "userPrincipalName": "brian.kamau@contoso.onmicrosoft.com",  "isAdmin": false, "isMfaRegistered": true,  "userType": "member", "methodsRegistered": ["microsoftAuthenticatorPush"]},
+    {"id": "u04", "userPrincipalName": "grace.wanjiru@contoso.onmicrosoft.com","isAdmin": false, "isMfaRegistered": true,  "userType": "member", "methodsRegistered": ["mobilePhone"]},
+    {"id": "u05", "userPrincipalName": "peter.mwangi@contoso.onmicrosoft.com", "isAdmin": false, "isMfaRegistered": false, "userType": "member", "methodsRegistered": []},
+    {"id": "u06", "userPrincipalName": "exchange.admin@contoso.onmicrosoft.com","isAdmin": true, "isMfaRegistered": false, "userType": "member", "methodsRegistered": ["email"]},
+    {"id": "u07", "userPrincipalName": "contractor_partner.com#EXT#@contoso.onmicrosoft.com", "isAdmin": false, "isMfaRegistered": false, "userType": "guest", "methodsRegistered": []},
+    {"id": "u08", "userPrincipalName": "auditor_firm.co.ke#EXT#@contoso.onmicrosoft.com", "isAdmin": false, "isMfaRegistered": false, "userType": "guest", "methodsRegistered": []},
+    {"id": "u09", "userPrincipalName": "training.room@contoso.onmicrosoft.com","isAdmin": false, "isMfaRegistered": false, "userType": "member", "methodsRegistered": []},
+    {"id": "u10", "userPrincipalName": "new.starter@contoso.onmicrosoft.com",  "isAdmin": false, "isMfaRegistered": false, "userType": "member", "methodsRegistered": []}
+  ]
+}
